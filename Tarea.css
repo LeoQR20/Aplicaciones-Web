@@ -27,7 +27,7 @@ tr:nth-child(even) {
 .grid {
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(7, 50%);
+    grid-auto-rows: auto;
     background-color: whitesmoke;
     grid-template-areas:
         "Menup Menup Menup Menup"
