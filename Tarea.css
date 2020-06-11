@@ -1,0 +1,94 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.ImagenPerfil {
+    width: 3.5cm;
+    height: 4.5cm;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.Tabla {
+    background-color: #dddddd8f;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 50%);
+    background-color: whitesmoke;
+    grid-template-areas:
+        "Menup Menup Menup Menup"
+        "InfoPersonal InfoPersonal InfoPersonal InfoPersonal"
+        "Foto DatosPersonales DatosPersonales DatosPersonales"
+        "InfoAcademico InfoAcademico InfoAcademico InfoAcademico"
+        "InfoLaboral InfoLaboral InfoLaboral InfoLaboral"
+        "Cursos Cursos Cursos Cursos"
+        "Hobbies Hobbies Hobbies Hobbies"
+}
+
+/* div:hover {
+    border: 1px solid yellow;
+} */
+
+.Menu {
+    grid-area: Menup;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#InfoPersonal {
+    grid-area: InfoPersonal;
+    background-color: whitesmoke;
+}
+
+#Foto {
+    grid-area: Foto;
+    margin:auto;
+}
+
+#DatosPer {
+    grid-area: DatosPersonales;
+}
+
+#InfoAcademico {
+    grid-area: InfoAcademico;
+}
+
+#InfoLaboral {
+    grid-area: InfoLaboral;
+}
+
+#Cursos {
+    grid-area: Cursos;
+}
+
+#Hobbies {
+    grid-area: Hobbies;
+}
