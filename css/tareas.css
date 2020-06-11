@@ -1,0 +1,27 @@
+header{
+    background-color: black;
+    color: white;
+    padding-bottom: 0.5%;
+}
+
+footer{
+    text-align: center;
+}
+
+.row{
+    padding-top: 1%;
+}
+
+.col-md-3, .col-sm-6{
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.color1{
+    background-color:  gray;
+}
+
+.color2{
+    background-color: lightgray;
+}
